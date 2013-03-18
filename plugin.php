@@ -3,7 +3,7 @@
  Plugin Name: GetGit
  Plugin URI: http://flightlessflyer.pinguinotech.com/github-wordpress-plugin
  Description: Embeds content stored in a public GitHub repository.
- Version: 0.1
+ Version: 0.3
  Author: Clay Carpenter
  */
 
@@ -13,7 +13,7 @@
  * To enable logging, set the Logger's is_enabled property to TRUE.
  */
 require_once ('php/logger.php');
-Logger::$is_enabled = TRUE;
+Logger::$is_enabled = FALSE;
 
 /*
  * This file contains the core plugin code, especially the
