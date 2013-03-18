@@ -13,7 +13,7 @@
  * To enable logging, set the Logger's is_enabled property to TRUE.
  */
 require_once ('php/logger.php');
-Logger::$is_enabled = FALSE;
+Logger::$is_enabled = TRUE;
 
 /*
  * This file contains the core plugin code, especially the
